@@ -40,7 +40,7 @@ input[type=text] {
   font-weight:bold;
   outline:none;
   padding: 7px 12px;
-  margin-left:5px;
+  margin-left:15px;
 }
 
 .microphone {
@@ -70,18 +70,34 @@ input[type=text]:focus {
   outline: none;
 }
 
-nav {
-  position:fixed;
-  float: right;
-  font-size: 13px;
-  display:inline-block;
-  top:20px;
-  right:20px;
+ul{
+  list-style-type: none;
+  margin-right:12px;
+  padding:0;
+  overflow:hidden;
+}
 
+li{
+  float:right;
 }
 
 .nav_spacing{
-  margin-left:10px;
+  display:inline-block;
+  text-align:center;
+  padding-right: 15px;
+  padding-top: 8px;
+  text-decoration:none;
+  font-size: 13px;
+}
+
+.material-icons{
+  opacity: 0.55;
+  padding-top:3px;
+  padding-right: 5px;
+}
+
+li i:hover{
+  opacity:1.0;
 }
 
 body {
@@ -135,8 +151,4 @@ a:hover{
 
 a:active{
   text-decoration: underline;
-}
-
-.material-icons{
-  opacity: 0.55;
 }
